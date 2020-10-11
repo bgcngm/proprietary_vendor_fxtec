@@ -1107,7 +1107,7 @@ PRODUCT_PACKAGES += \
     datastatusnotification \
     embms \
     imssettings \
-    CNEService \
     ims \
     qcrilmsgtunnel \
+    CNEService \
     WfdCommon
