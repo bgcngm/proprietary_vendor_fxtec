@@ -20,24 +20,6 @@ soong_namespace {
 }
 
 cc_prebuilt_library_shared {
-	name: "com.qualcomm.qti.ant@1.0",
-	owner: "fxtec",
-	strip: {
-		none: true,
-	},
-	target: {
-		android_arm: {
-			srcs: ["proprietary/lib/com.qualcomm.qti.ant@1.0.so"],
-		},
-		android_arm64: {
-			srcs: ["proprietary/lib64/com.qualcomm.qti.ant@1.0.so"],
-		},
-	},
-	compile_multilib: "both",
-	prefer: true,
-}
-
-cc_prebuilt_library_shared {
 	name: "libantradio",
 	owner: "fxtec",
 	strip: {
